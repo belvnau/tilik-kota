@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tilik Kota 🏙️
 
-## Getting Started
+**Melihat kondisi. Menelusuri perubahan.**
 
-First, run the development server:
+Tilik Kota is a civic-tech platform for reporting and monitoring public infrastructure conditions in Kota Tangerang, Indonesia.
+
+The platform aims to improve public transparency by helping citizens document infrastructure issues, explore reports, and track report updates.
+
+## 🎯 Project Goals
+
+- Facilitate public infrastructure reporting.
+- Improve access to public infrastructure information.
+- Enable citizens to explore reports by category and location.
+- Track report status and documented updates.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS
+- **Backend:** Next.js Route Handlers, Node.js
+- **Database:** Supabase PostgreSQL
+- **ORM:** Drizzle ORM
+- **Validation:** Zod
+- **Storage:** Supabase Storage
+- **Version Control:** Git & GitHub
+
+## 📍 Project Scope
+
+Kota Tangerang, Banten, Indonesia.
+
+## 👥 Team
+
+Aselole Systems
+
+## 🚧 Project Status
+
+Currently in development.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed.
+
+### Installation
+
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/belvnau/tilik-kota.git
+cd tilik-kota
+```
+
+Install the project dependencies:
+
+```bash
+npm install
+```
+
+### Run the Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page automatically updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Learn More
 
-## Learn More
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
 
-To learn more about Next.js, take a look at the following resources:
+## 🚢 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The application can be deployed using the [Vercel Platform](https://vercel.com/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For more details, see the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
