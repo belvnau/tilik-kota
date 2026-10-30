@@ -17,10 +17,10 @@ The platform aims to improve public transparency by helping citizens document in
 
 - **Frontend:** Next.js, React, TypeScript, Tailwind CSS
 - **Backend:** Next.js Route Handlers, Node.js
-- **Database:** Supabase PostgreSQL
+- **Database:** PostgreSQL (local)
 - **ORM:** Drizzle ORM
 - **Validation:** Zod
-- **Storage:** Supabase Storage
+- **Storage:** Local folder (uploads/)
 - **Version Control:** Git & GitHub
 
 ## 📍 Project Scope
