@@ -1,0 +1,3 @@
+import Link from 'next/link'
+
+export default function NotFound() { return <main className="grid min-h-screen place-items-center bg-[#f8f9f7] px-5 text-center"><div><p className="text-sm font-bold uppercase tracking-[0.18em] text-primary">404</p><h1 className="mt-3 text-3xl font-extrabold">Laporan tidak ditemukan</h1><p className="mt-3 text-sm text-muted-foreground">Kode laporan mungkin salah atau belum tersedia untuk publik.</p><Link href="/eksplorasi" className="mt-7 inline-flex rounded-lg bg-primary px-5 py-3 text-sm font-bold text-primary-foreground">Kembali ke eksplorasi</Link></div></main> }
