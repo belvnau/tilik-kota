@@ -49,3 +49,23 @@ export const reports: Report[] = [
 ]
 
 export const publicReports = reports.filter((report) => report.isPublic)
+
+// Riwayat perubahan status. Bersifat append-only: hanya boleh ditambah, tidak diedit atau dihapus.
+export type ReportUpdate = {
+  id: string
+  reportId: string
+  status: ReportStatus
+  note: string
+  createdAt: string // ISO 8601
+}
+
+export const defaultStatusNote: Record<ReportStatus, string> = {
+  masuk: 'Laporan diterima dan menunggu pemeriksaan.',
+  diperiksa: 'Tim memeriksa kelengkapan foto dan lokasi laporan.',
+  ditangani: 'Laporan diteruskan dan sedang dalam penanganan (simulasi).',
+  diklaim_selesai: 'Perbaikan diklaim sudah selesai dan menunggu konfirmasi warga.',
+  terverifikasi: 'Warga sekitar mengonfirmasi bahwa perbaikan sudah selesai.',
+  ditolak: 'Laporan belum dapat diproses karena informasi belum memadai.',
+}
+
+export const statusOrder: ReportStatus[] = ['masuk', 'diperiksa', 'ditangani', 'diklaim_selesai', 'terverifikasi']
